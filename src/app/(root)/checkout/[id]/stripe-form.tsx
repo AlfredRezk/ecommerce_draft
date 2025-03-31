@@ -7,8 +7,6 @@ import {
 import { FormEvent, useState } from 'react'
 
 import { Button } from '@/components/ui/button'
-
-import { SERVER_URL } from '@/lib/constants'
 import ProductPrice from '@/components/product/product-price'
 
 export default function StripeForm({
