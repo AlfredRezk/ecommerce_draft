@@ -14,7 +14,6 @@ const initialSate: z.infer<typeof CartSchema> = {
   taxPrice: undefined,
   shippingPrice: undefined,
   totalPrice: 0,
-  paymentMethod: undefined,
   shippingAddress: undefined,
   deliveryDateIndex: undefined,
 }
