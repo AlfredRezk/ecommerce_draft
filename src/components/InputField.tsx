@@ -1,4 +1,5 @@
 "use client";
+
 import {
   FormControl,
   FormField,
@@ -13,6 +14,7 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 
 interface formInputProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   form: any;
   label: string;
   placeholder?: string;
