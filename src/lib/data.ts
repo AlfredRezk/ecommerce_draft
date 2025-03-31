@@ -42,7 +42,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+
     emailVerified: false,
   },
   {
@@ -59,7 +59,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Cash On Delivery',
+
     emailVerified: false,
   },
   {
@@ -76,7 +76,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+
     emailVerified: false,
   },
   {
@@ -93,7 +93,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Cash On Delivery',
+
     emailVerified: false,
   },
   {
@@ -110,7 +110,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+
     emailVerified: false,
   },
   {
@@ -127,7 +127,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+
     emailVerified: false,
   },
   {
@@ -144,7 +144,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Cash On Delivery',
+ 
     emailVerified: false,
   },
   {
@@ -161,7 +161,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+
     emailVerified: false,
   },
   {
@@ -178,7 +178,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+
     emailVerified: false,
   },
   {
@@ -195,7 +195,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+
     emailVerified: false,
   },
   {
@@ -212,7 +212,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Cash On Delivery',
+
     emailVerified: false,
   },
   {
@@ -229,7 +229,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+
     emailVerified: false,
   },
   {
@@ -246,7 +246,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+
     emailVerified: false,
   },
   {
@@ -263,7 +263,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Cash On Delivery',
+
     emailVerified: false,
   },
   {
@@ -280,7 +280,7 @@ export const users: z.infer<typeof UserSchema>[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+
     emailVerified: false,
   },
 ]
