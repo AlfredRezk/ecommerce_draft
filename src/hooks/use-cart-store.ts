@@ -32,7 +32,6 @@ interface CartState {
   setShippingAddress: (
     shippingAddress: z.infer<typeof ShippingAddressSchema>,
   ) => Promise<void>
-  setPaymentMethod: (paymentMethod: string) => void
   setDeliveryDateIndex: (index: number) => Promise<void>
   clearCart: () => void
 }
@@ -148,14 +147,7 @@ const useCartStore = create(
           },
         })
       },
-      setPaymentMethod: (paymentMethod: string) => {
-        set({
-          cart: {
-            ...get().cart,
-            paymentMethod,
-          },
-        })
-      },
+
       setDeliveryDateIndex: async (index: number) => {
         const { items, shippingAddress } = get().cart
         set({
