@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 'use server'
 
 import { formatError, round2 } from '../utils'
